@@ -16,7 +16,7 @@ A vote is made using a set of initialisms, decided by a moderator for the channe
 
 
 ## Dataset Overview 
-
+The full dataset was created and cleaned by Elle O’Brien, faculty at the University of Michigan, and can be accessed at her [GitHub](https://github.com/iterative/aita_dataset). The following is her description of the dataset:
 The dataset has 9 features:
 
 - id, a unique string provided by Reddit's API to index every post timestamp of post creation, in epoch/Unix format
@@ -27,5 +27,4 @@ The dataset has 9 features:
 - score: an integer corresponding to the difference between upvotes and downvotes
 - num_comments: an integer corresponding to the total number of comments (including nested discussion) to the post
 - is_asshole: a boolean (1/0) corresponding to whether the verdict is in the set {"asshole","everyone sucks"}, decided by a moderator of the subreddit
-  
-The dataset was created and cleaned by Elle O’Brien, faculty at the University of Michigan, and can be accessed at her [GitHub](https://github.com/iterative/aita_dataset)
+
